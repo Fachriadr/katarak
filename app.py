@@ -5,7 +5,6 @@ import numpy as np
 import torch
 import tempfile
 from PIL import Image
-pip install -r requirements.txt
 
 @st.cache_resource
 def load_model():
