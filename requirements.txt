@@ -1,3 +1,5 @@
+gitpython==3.1.30
+matplotlib==3.3
 av==11.0.0
 numpy==1.22.2
 opencv_python_headless==4.8.0.74
