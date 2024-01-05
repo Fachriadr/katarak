@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+os.environ["LD_LIBRARY_PATH"] = "/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib:/lib"
 import cv2
 import numpy as np
 #import av
