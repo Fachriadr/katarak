@@ -3,6 +3,3 @@ opencv-python-headless
 av
 torch
 Pillow
-gitpython
-Fachriadr
-requests
