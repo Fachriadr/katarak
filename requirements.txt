@@ -5,6 +5,5 @@ av
 torch
 ultralytics
 tqdm
-pandas
 seaborn
 setuptools
