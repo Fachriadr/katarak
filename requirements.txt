@@ -1,16 +1,6 @@
 streamlit
 numpy>=1.22.2
 opencv-python-headless
-
-# Logging ---------------------------------------------------------------------
-# tensorboard>=2.4.1
-# clearml>=1.2.0
-# comet
-
-# Plotting --------------------------------------------------------------------
-pandas>=1.1.4
-seaborn>=0.11.0
-
 # Export ----------------------------------------------------------------------
 # coremltools>=6.0  # CoreML export
 # onnx>=1.10.0  # ONNX export
