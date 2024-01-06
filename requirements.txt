@@ -1,5 +1,5 @@
 streamlit
-numpy>=1.22.2
+numpy
 opencv-python-headless
 torch
 torchvision
