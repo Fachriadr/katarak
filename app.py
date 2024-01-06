@@ -8,7 +8,7 @@ from PIL import Image
 
 @st.cache_resource
 def load_model():
-    model = torch.hub.load('Fachriadr/katarak', 'custom', path="best.pt",force_reload=True)
+    model = load('Fachriadr/katarak', 'custom', path="best.pt",force_reload=True)
     return model
 
 demo_img = "katarak1.png"
