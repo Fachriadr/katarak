@@ -3,3 +3,8 @@ numpy
 opencv-python-headless
 av
 torch
+ultralytics
+tqdm
+pandas
+seaborn
+setuptools
