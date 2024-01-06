@@ -7,10 +7,9 @@ import tempfile
 from PIL import Image
 
 @st.cache_resource
-def load_model():
-    model = torch.hub.load('ultralytics/yolov5','custom',path="weights/best.pt",force_reload=True)
-    return model
-    return model
+model_url = "https://github.com/Fachriadr/katarak/tree/main/best.pt"
+model = torch.hub.load(model_url, 'custom', force_reload=True)
+
 
 demo_img = "katarak1.png"
 demo_video = "My Eyes.mp4"
