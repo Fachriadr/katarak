@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 import cv2
 import numpy as np
 import av
