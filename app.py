@@ -25,7 +25,7 @@ if app_mode == 'About App':
     st.subheader("PERHATIAN")
     st.markdown("<h5>INI ADALAH CONTOH FOTO JIKA UPLOAD GAMBAR</h5>",unsafe_allow_html=True)    
     st.markdown("- <h5>CONTOH 1</h5>",unsafe_allow_html=True)
-    st.image("Image/katarak1.png")
+    st.image("katarak1.png")
     st.markdown("- <h5>CONTOH 2</h5>",unsafe_allow_html=True)
     st.image("Image/mata1.jpg")
 
