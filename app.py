@@ -27,7 +27,7 @@ if app_mode == 'About App':
     st.markdown("- <h5>CONTOH 1</h5>",unsafe_allow_html=True)
     st.image("katarak1.png")
     st.markdown("- <h5>CONTOH 2</h5>",unsafe_allow_html=True)
-    st.image("Image/mata1.jpg")
+    st.image("mata1.jpg")
 
 if app_mode == 'Run on Image':
     st.subheader("Deteksi Mata Katarak:")
