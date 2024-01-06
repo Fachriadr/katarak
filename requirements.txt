@@ -1,6 +1,4 @@
 streamlit
-gitpython>=3.1.30
-matplotlib>=3.3
 numpy>=1.22.2
 opencv-python-headless
 Pillow>=10.0.1
