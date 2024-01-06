@@ -3,3 +3,4 @@ opencv-python-headless
 av
 torch
 Pillow
+ultralytics>=8.0.147
