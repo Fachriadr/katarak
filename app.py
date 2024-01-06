@@ -7,9 +7,10 @@ import tempfile
 from PIL import Image
 
 @st.cache_resource
-model_url = "https://github.com/Fachriadr/katarak"
-model = torch.hub.load(model_url, 'custom', path="best.pt", force_reload=True)
-
+def load_model():
+  model_url = "https://github.com/Fachriadr/katarak"
+  model = torch.hub.load(model_url, 'custom', path="best.pt", force_reload=True)
+  return model
 
 
 demo_img = "katarak1.png"
