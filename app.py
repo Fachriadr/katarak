@@ -7,7 +7,7 @@ import tempfile
 from PIL import Image
 
 @st.cache_resource
-model_url = "https://github.com/Fachriadr/katarak/tree/main/best.pt"
+model_url = "https://github.com/Fachriadr/katarak/raw/main/best.pt"
 model = torch.hub.load(model_url, 'custom', force_reload=True)
 
 
