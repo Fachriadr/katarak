@@ -8,7 +8,7 @@ from PIL import Image
 
 @st.cache_resource
 model_url = "https://github.com/Fachriadr/katarak/archive/main.tar.gz"
-model = torch.hub.load(model_url, 'best', path="best.pt", force_reload=True)
+model = torch.hub.load(model_url, 'custom', path="best.pt", force_reload=True)
 
 
 
